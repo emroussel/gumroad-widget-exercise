@@ -1,0 +1,37 @@
+.gumroad-button {
+  background-color: white;
+  background-image: url(https://gumroad.com/button/button_bar.jpg);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 40%) 0 0 2px;
+  color: #999;
+  display: inline-block;
+  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  padding: 0 15px;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.gumroad-product-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.gumroad-product-iframe {
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  height: 80vh;
+}
